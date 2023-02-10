@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-03T08:51:12.384Z</updated>
+  <updated>2023-02-10T08:28:01.044Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,23 +17,71 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CheatSheetWeb</title>
+    <link href="http://example.com/2023/02/10/CheatSheetWeb/"/>
+    <id>http://example.com/2023/02/10/CheatSheetWeb/</id>
+    <published>2023-02-10T08:21:47.000Z</published>
+    <updated>2023-02-10T08:28:01.044Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天给初学者推荐一个网站，推荐的这个网站就是对各个知识点的速查。</p><p><a href="https://devhints.io/">Rico’s cheatsheets</a></p><p>在网站搜索框中输入你想查询的，就可以看到返回的结果，这个网站主要的语言是英文，这对于英文差的童鞋不是很友好，但是在开发的过程中，你写的代码越多，你越会发现 能熟练读懂英文文章是多磨的重要。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天给初学者推荐一个网站，推荐的这个网站就是对各个知识点的速查。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devhints.io/&quot;&gt;Rico’s cheatsheets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在网站搜索框中输入你想查询的，就可以看到返回的结果，这个网站主要的语言是</summary>
+      
+    
+    
+    
+    
+    <category term="收藏" scheme="http://example.com/tags/%E6%94%B6%E8%97%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gitee实现CiCd</title>
+    <link href="http://example.com/2023/02/03/Gitee%E5%AE%9E%E7%8E%B0%E6%8C%81%E7%BB%ADCiCd/"/>
+    <id>http://example.com/2023/02/03/Gitee%E5%AE%9E%E7%8E%B0%E6%8C%81%E7%BB%ADCiCd/</id>
+    <published>2023-02-03T09:06:38.000Z</published>
+    <updated>2023-02-03T09:41:39.798Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们的hexo在实现部署之后，就将hexo生成的静态文件已经传到了gitee上面，但是这时候，gitee不会自动重新发布最新的文件，就需要再gitee 的 gitee page里面重新发布。</p><p>这里就是为了实现持续集成持续发布的需求。</p><p>我们找到项目里面的流水线，说的是前200个小时免费，后序收费。</p><p><img src="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302031739876.png" alt="image-20230203173915623"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我们的hexo在实现部署之后，就将hexo生成的静态文件已经传到了gitee上面，但是这时候，gitee不会自动重新发布最新的文件，就需要再gitee 的 gitee page里面重新发布。&lt;/p&gt;
+&lt;p&gt;这里就是为了实现持续集成持续发布的需求。&lt;/p&gt;
+&lt;p&gt;我们找到项目</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hexo快速入门</title>
     <link href="http://example.com/2023/02/03/Hexo%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     <id>http://example.com/2023/02/03/Hexo%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</id>
     <published>2023-02-03T08:50:37.000Z</published>
-    <updated>2023-02-03T08:51:12.384Z</updated>
+    <updated>2023-02-03T09:06:00.859Z</updated>
     
-    <content type="html"><![CDATA[<p>如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>1、如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。</p><p>2、就是现在gitee不能够及时的相应hexo d，应该需要做cicd<br>3、在obsidian文件目录里面做一个 blog的软连，看这样能不能实现顺畅的工作流。<br>4、就是描述自己的工作流，如何使用。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h1&gt;&lt;p&gt;1、如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。&lt;/p&gt;
+&lt;p&gt;2、就是现在gitee不能够及时的相应hexo d，应</summary>
       
     
     
     
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
     
   </entry>
   
