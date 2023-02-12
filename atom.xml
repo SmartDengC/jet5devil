@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-12T15:53:21.854Z</updated>
+  <updated>2023-02-12T17:00:07.996Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,49 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试gitee page auto deploy5</title>
-    <link href="http://example.com/2023/02/12/%E6%B5%8B%E8%AF%95gitee-page-auto-deploy5/"/>
-    <id>http://example.com/2023/02/12/%E6%B5%8B%E8%AF%95gitee-page-auto-deploy5/</id>
-    <published>2023-02-12T15:53:02.000Z</published>
-    <updated>2023-02-12T15:53:21.854Z</updated>
+    <title>借用Github实现自动更新Gitee Page</title>
+    <link href="http://example.com/2023/02/13/%E5%80%9F%E7%94%A8Github%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0Gitee-Page/"/>
+    <id>http://example.com/2023/02/13/%E5%80%9F%E7%94%A8Github%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0Gitee-Page/</id>
+    <published>2023-02-12T16:59:29.000Z</published>
+    <updated>2023-02-12T17:00:07.996Z</updated>
     
-    <content type="html"><![CDATA[<p>test auto page 5</p>]]></content>
+    <content type="html"><![CDATA[<p>这里用来记录如何通过github来实现gitee的自动部署</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;test auto page 5&lt;/p&gt;
+    <summary type="html">&lt;p&gt;这里用来记录如何通过github来实现gitee的自动部署&lt;/p&gt;
 </summary>
       
     
     
     
     
-  </entry>
-  
-  <entry>
-    <title>测试gitee page auto deploy</title>
-    <link href="http://example.com/2023/02/12/%E6%B5%8B%E8%AF%95gitee-page-auto-deploy/"/>
-    <id>http://example.com/2023/02/12/%E6%B5%8B%E8%AF%95gitee-page-auto-deploy/</id>
-    <published>2023-02-12T10:52:04.000Z</published>
-    <updated>2023-02-12T16:53:07.556Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是测试自动部署的md文件<br>重新输入内容</p><p>在次修改</p><p>第三次修改</p><p>第四次修改<br>第五次修改<br>第六次修改</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这是测试自动部署的md文件&lt;br&gt;重新输入内容&lt;/p&gt;
-&lt;p&gt;在次修改&lt;/p&gt;
-&lt;p&gt;第三次修改&lt;/p&gt;
-&lt;p&gt;第四次修改&lt;br&gt;第五次修改&lt;br&gt;第六次修改&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="gitee, auto deploy" scheme="http://example.com/tags/gitee-auto-deploy/"/>
+    <category term="gitee, github" scheme="http://example.com/tags/gitee-github/"/>
     
   </entry>
   
