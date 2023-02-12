@@ -8,26 +8,7 @@
       <link href="/2023/02/13/%E5%80%9F%E7%94%A8Github%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0Gitee-Page/"/>
       <url>/2023/02/13/%E5%80%9F%E7%94%A8Github%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0Gitee-Page/</url>
       
-        <content type="html"><![CDATA[<p>这里用来记录如何通过github来实现gitee的自动部署</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> gitee, github </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>使用github实现gitee自动发布</title>
-      <link href="/2023/02/10/%E4%BD%BF%E7%94%A8github%E5%AE%9E%E7%8E%B0gitee%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83/"/>
-      <url>/2023/02/10/%E4%BD%BF%E7%94%A8github%E5%AE%9E%E7%8E%B0gitee%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83/</url>
-      
-        <content type="html"><![CDATA[<p>这里实现对 gitee page的自动发布，</p>]]></content>
+        <content type="html"><![CDATA[<p>这里用来记录如何通过github来实现gitee的自动部署</p><p>首先就是需要再github上面创建一个项目</p>]]></content>
       
       
       
