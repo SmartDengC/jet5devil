@@ -42,9 +42,9 @@
     <link href="http://example.com/2023/02/12/%E6%B5%8B%E8%AF%95gitee-page-auto-deploy/"/>
     <id>http://example.com/2023/02/12/%E6%B5%8B%E8%AF%95gitee-page-auto-deploy/</id>
     <published>2023-02-12T10:52:04.000Z</published>
-    <updated>2023-02-12T16:20:16.013Z</updated>
+    <updated>2023-02-12T16:32:06.619Z</updated>
     
-    <content type="html"><![CDATA[<p>这是测试自动部署的md文件<br>重新输入内容</p><p>在次修改</p><p>第三次修改</p>]]></content>
+    <content type="html"><![CDATA[<p>这是测试自动部署的md文件<br>重新输入内容</p><p>在次修改</p><p>第三次修改</p><p>第四次修改<br>第五次修改</p>]]></content>
     
     
       
@@ -52,6 +52,7 @@
     <summary type="html">&lt;p&gt;这是测试自动部署的md文件&lt;br&gt;重新输入内容&lt;/p&gt;
 &lt;p&gt;在次修改&lt;/p&gt;
 &lt;p&gt;第三次修改&lt;/p&gt;
+&lt;p&gt;第四次修改&lt;br&gt;第五次修改&lt;/p&gt;
 </summary>
       
     
