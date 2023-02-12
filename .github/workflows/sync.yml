@@ -3,7 +3,7 @@ name: Sync
 on:
   push:
     # 将github的分支内容push到gitee上面
-    branches: [master, main]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
