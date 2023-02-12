@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>测试gitee page auto deploy</title>
+    <link href="/2023/02/12/%E6%B5%8B%E8%AF%95gitee-page-auto-deploy/"/>
+    <url>/2023/02/12/%E6%B5%8B%E8%AF%95gitee-page-auto-deploy/</url>
+    
+    <content type="html"><![CDATA[<p>这是测试自动部署的md文件</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>gitee, auto deploy</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>使用github实现gitee自动发布</title>
     <link href="/2023/02/10/%E4%BD%BF%E7%94%A8github%E5%AE%9E%E7%8E%B0gitee%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83/"/>
     <url>/2023/02/10/%E4%BD%BF%E7%94%A8github%E5%AE%9E%E7%8E%B0gitee%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83/</url>
