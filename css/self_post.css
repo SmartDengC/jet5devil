@@ -1,0 +1,7 @@
+#board-ctn {
+    max-width: 1540px;
+}
+
+body > main > div.container.nopadding-x-md {
+    max-width: 1540px;
+}
