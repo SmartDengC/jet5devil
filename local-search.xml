@@ -115,7 +115,7 @@
     <link href="/2023/01/29/README/"/>
     <url>/2023/01/29/README/</url>
     
-    <content type="html"><![CDATA[<p>这里是刚才新建的文件</p><p>这里简单记录hexo的操作。</p><p>1、新建一个hexo的项目：<code>hexo init project_name</code><br>2、hexo 生成：hexo g<br>3、启动hexo 服务： hexo s<br>4、发布hexo ：hexo d（发布的前提需要安装一个插件）<br>5、新建一篇文章： hexo new title</p><p>参考：<br><a href="https://blog.csdn.net/weixin_45019350/article/details/121901433">hexo 0 基础搭建博客</a></p>]]></content>
+    <content type="html"><![CDATA[<p>这里是刚才新建的文件<br>在 front matter里面添加 hide: true， 可以隐藏该篇文章。</p><p>这里简单记录hexo的操作。</p><p>1、新建一个hexo的项目：<code>hexo init project_name</code><br>2、hexo 生成：hexo g<br>3、启动hexo 服务： hexo s<br>4、发布hexo ：hexo d（发布的前提需要安装一个插件）<br>5、新建一篇文章： hexo new title</p><p>参考：<br><a href="https://blog.csdn.net/weixin_45019350/article/details/121901433">hexo 0 基础搭建博客</a></p>]]></content>
     
     
     <categories>

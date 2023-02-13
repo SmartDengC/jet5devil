@@ -146,17 +146,12 @@
     <link href="http://example.com/2023/01/29/README/"/>
     <id>http://example.com/2023/01/29/README/</id>
     <published>2023-01-29T05:40:48.000Z</published>
-    <updated>2023-01-29T05:46:30.895Z</updated>
+    <updated>2023-02-13T06:58:05.160Z</updated>
     
-    <content type="html"><![CDATA[<p>这里是刚才新建的文件</p><p>这里简单记录hexo的操作。</p><p>1、新建一个hexo的项目：<code>hexo init project_name</code><br>2、hexo 生成：hexo g<br>3、启动hexo 服务： hexo s<br>4、发布hexo ：hexo d（发布的前提需要安装一个插件）<br>5、新建一篇文章： hexo new title</p><p>参考：<br><a href="https://blog.csdn.net/weixin_45019350/article/details/121901433">hexo 0 基础搭建博客</a></p>]]></content>
+    <content type="html"><![CDATA[<p>这里是刚才新建的文件<br>在 front matter里面添加 hide: true， 可以隐藏该篇文章。</p><p>这里简单记录hexo的操作。</p><p>1、新建一个hexo的项目：<code>hexo init project_name</code><br>2、hexo 生成：hexo g<br>3、启动hexo 服务： hexo s<br>4、发布hexo ：hexo d（发布的前提需要安装一个插件）<br>5、新建一篇文章： hexo new title</p><p>参考：<br><a href="https://blog.csdn.net/weixin_45019350/article/details/121901433">hexo 0 基础搭建博客</a></p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;这里是刚才新建的文件&lt;/p&gt;
-&lt;p&gt;这里简单记录hexo的操作。&lt;/p&gt;
-&lt;p&gt;1、新建一个hexo的项目：&lt;code&gt;hexo init project_name&lt;/code&gt;&lt;br&gt;2、hexo 生成：hexo g&lt;br&gt;3、启动hexo 服务： hexo s&lt;br&gt;4</summary>
-      
+    <summary type="html">这里是一些摘要，看看效果</summary>
     
     
     
