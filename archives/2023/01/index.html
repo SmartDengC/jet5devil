@@ -238,7 +238,7 @@
                 
 
 <div class="list-group">
-  <p class="h4">共计 6 篇文章</p>
+  <p class="h4">共计 7 篇文章</p>
   <hr>
   
   
@@ -361,21 +361,21 @@
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
 
+ <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+<script>
+  (function (window, document) {
+    var typing = Fluid.plugins.typing;
+    var subtitle = document.getElementById('subtitle');
+    if (!subtitle || !typing) {
+      return;
+    }
+    var text = subtitle.getAttribute('data-typed-text');
+    
+      typing(text);
+    
 
-  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var subtitle = document.getElementById('subtitle');
-      if (!subtitle || !typing) {
-        return;
-      }
-      var text = subtitle.getAttribute('data-typed-text');
-      
-        typing(text);
-      
-    })(window, document);
-  </script>
+  })(window, document);
+</script>
 
 
 

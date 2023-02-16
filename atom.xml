@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-02-15T02:02:14.187Z</updated>
+  <updated>2023-02-16T07:03:04.410Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>实用Fluid用户推荐</title>
+    <link href="http://example.com/2023/02/16/%E5%AE%9E%E7%94%A8Fluid%E7%94%A8%E6%88%B7%E6%8E%A8%E8%8D%90/"/>
+    <id>http://example.com/2023/02/16/%E5%AE%9E%E7%94%A8Fluid%E7%94%A8%E6%88%B7%E6%8E%A8%E8%8D%90/</id>
+    <published>2023-02-16T06:55:04.000Z</published>
+    <updated>2023-02-16T07:03:04.410Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里给大家总结一些自己看到的有关 Hexo 相关好的站点，对于选择的方面，有两个，一个是使用 Hexo Fluid 主题有特色的，对 Fluid 主题有做优化的；第二个就是对用户内容的挑选，对自己今后发展能起指导性作用的，或者是好的知识点或者是好的内容站点。</p><h1 id="0x00-zkqiang’s-blog"><a href="#0x00-zkqiang’s-blog" class="headerlink" title="0x00 zkqiang’s blog"></a>0x00 <a href="https://zkqiang.cn/">zkqiang’s blog</a></h1><p>这个是 fluid 官方作者的站点，里面记录了许多的 fluid 的优化方案。</p><h1 id="0x01-Hexo-Theme-Fluid"><a href="#0x01-Hexo-Theme-Fluid" class="headerlink" title="0x01 Hexo Theme Fluid"></a>0x01 <a href="https://hexo.fluid-dev.com/">Hexo Theme Fluid</a></h1><p>这个也是官方的站点。</p><h1 id="1、-加菲猫的创客工坊"><a href="#1、-加菲猫的创客工坊" class="headerlink" title="1、 加菲猫的创客工坊 "></a>1、<a href="https://www.gaficat.com/"> 加菲猫的创客工坊 </a></h1><p>这位朋友多写自己的感悟，值得借鉴一下。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这里给大家总结一些自己看到的有关 Hexo 相关好的站点，对于选择的方面，有两个，一个是使用 Hexo Fluid 主题有特色的，对 Fluid 主题有做优化的；第二个就是对用户内容的挑选，对自己今后发展能起指导性作用的，或者是好的知识点或者是好的内容站点。&lt;/p&gt;
+&lt;h1</summary>
+      
+    
+    
+    
+    <category term="Learning" scheme="http://example.com/categories/Learning/"/>
+    
+    
+    <category term="收藏" scheme="http://example.com/tags/%E6%94%B6%E8%97%8F/"/>
+    
+    <category term="fluid" scheme="http://example.com/tags/fluid/"/>
+    
+  </entry>
   
   <entry>
     <title>实用的网站总结</title>
@@ -144,16 +171,16 @@
     <link href="http://example.com/2023/01/14/README/"/>
     <id>http://example.com/2023/01/14/README/</id>
     <published>2023-01-14T05:40:48.000Z</published>
-    <updated>2023-02-15T07:23:55.330Z</updated>
+    <updated>2023-02-16T06:22:36.834Z</updated>
     
-    <content type="html"><![CDATA[<p>这里是刚才新建的文件<br>在 front matter里面添加 hide: true， 可以隐藏该篇文章。</p><p>这里简单记录hexo的操作。</p><p>1、新建一个hexo的项目：<code>hexo init project_name</code><br>2、hexo 生成：hexo g<br>3、启动hexo 服务： hexo s<br>4、发布hexo ：hexo d（发布的前提需要安装一个插件）<br>5、新建一篇文章： hexo new title</p><p>参考：<br><a href="https://blog.csdn.net/weixin_45019350/article/details/121901433">hexo 0 基础搭建博客</a></p>]]></content>
+    <content type="html"><![CDATA[<p>这里是刚才新建的文件<br>在 front matter 里面添加 hide: true， 可以隐藏该篇文章。</p><p>这里简单记录 hexo 的操作。</p><p>1、新建一个 hexo 的项目：<code>hexo init project_name</code><br>2、hexo 生成：hexo g<br>3、启动 hexo 服务： hexo s<br>4、发布 hexo ：hexo d（发布的前提需要安装一个插件）<br>5、新建一篇文章： hexo new title</p><p>参考：<br><a href="https://blog.csdn.net/weixin_45019350/article/details/121901433">hexo 0 基础搭建博客</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;这里是刚才新建的文件&lt;br&gt;在 front matter里面添加 hide: true， 可以隐藏该篇文章。&lt;/p&gt;
-&lt;p&gt;这里简单记录hexo的操作。&lt;/p&gt;
-&lt;p&gt;1、新建一个hexo的项目：&lt;code&gt;hexo init project_name&lt;/code&gt;&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;这里是刚才新建的文件&lt;br&gt;在 front matter 里面添加 hide: true， 可以隐藏该篇文章。&lt;/p&gt;
+&lt;p&gt;这里简单记录 hexo 的操作。&lt;/p&gt;
+&lt;p&gt;1、新建一个 hexo 的项目：&lt;code&gt;hexo init project_name&lt;/code</summary>
       
     
     
