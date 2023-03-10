@@ -15,25 +15,34 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="joe dengc">
   <meta name="keywords" content="">
   
-    <meta name="description" content="问题1、如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。 2、就是现在gitee不能够及时的相应hexo d，应该需要做cicd3、在obsidian文件目录里面做一个 blog的软连，看这样能不能实现顺畅的工作流。4、就是描述自己的工作流，如何使用。 Attention1、Hexo文章属性hexo 有post、page、draft 的概念 hexo new 参数 -p，–pat">
+    <meta name="description" content="最近在使用hexo来写博客，对于hexo的简单使用、在Gitee Page上面也实现了正确的部署，但是发现了一个问题，就是说我在使用hexo d 进行部署的时候，gitee page 没有办法实现自动更新，需要手动进入到项目的gitee page页面点击更新，为了解决这个问题，发现了一个github的仓库代码，是使用action来实现的，下面简单说一下使用这个仓库的过程。 gitee page a">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo快速入门">
-<meta property="og:url" content="http://example.com/2023/02/03/Hexo%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/index.html">
+<meta property="og:title" content="借用Github实现自动更新Gitee Page">
+<meta property="og:url" content="http://example.com/2023/02/13/git/%E5%80%9F%E7%94%A8Github%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0Gitee-Page/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="问题1、如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。 2、就是现在gitee不能够及时的相应hexo d，应该需要做cicd3、在obsidian文件目录里面做一个 blog的软连，看这样能不能实现顺畅的工作流。4、就是描述自己的工作流，如何使用。 Attention1、Hexo文章属性hexo 有post、page、draft 的概念 hexo new 参数 -p，–pat">
+<meta property="og:description" content="最近在使用hexo来写博客，对于hexo的简单使用、在Gitee Page上面也实现了正确的部署，但是发现了一个问题，就是说我在使用hexo d 进行部署的时候，gitee page 没有办法实现自动更新，需要手动进入到项目的gitee page页面点击更新，为了解决这个问题，发现了一个github的仓库代码，是使用action来实现的，下面简单说一下使用这个仓库的过程。 gitee page a">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-02-03T08:50:37.000Z">
-<meta property="article:modified_time" content="2023-03-10T06:17:11.334Z">
+<meta property="og:image" content="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131021251.png">
+<meta property="og:image" content="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131049717.png">
+<meta property="og:image" content="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131233333.png">
+<meta property="og:image" content="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131236616.png">
+<meta property="og:image" content="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131247147.png">
+<meta property="og:image" content="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131303137.png">
+<meta property="article:published_time" content="2023-02-12T16:59:29.000Z">
+<meta property="article:modified_time" content="2023-02-15T02:02:49.945Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="gitee">
+<meta property="article:tag" content="github">
+<meta property="article:tag" content="auto-deploy">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131021251.png">
   
   
   
-  <title>Hexo快速入门 - Hexo</title>
+  <title>借用Github实现自动更新Gitee Page - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -222,7 +231,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hexo快速入门"></span>
+            <span id="subtitle" data-typed-text="借用Github实现自动更新Gitee Page"></span>
           
         </div>
 
@@ -233,8 +242,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-02-03 16:50" pubdate>
-          2023年2月3日 下午
+        <time datetime="2023-02-13 00:59" pubdate>
+          2023年2月13日 凌晨
         </time>
       </span>
     
@@ -245,7 +254,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          305 字
+          2.1k 字
         
       </span>
     
@@ -256,7 +265,7 @@
         
         
         
-          3 分钟
+          18 分钟
         
       </span>
     
@@ -294,19 +303,52 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hexo快速入门</h1>
+            <h1 style="display: none">借用Github实现自动更新Gitee Page</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>1、如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。</p>
-<p>2、就是现在gitee不能够及时的相应hexo d，应该需要做cicd<br>3、在obsidian文件目录里面做一个 blog的软连，看这样能不能实现顺畅的工作流。<br>4、就是描述自己的工作流，如何使用。</p>
-<h1 id="Attention"><a href="#Attention" class="headerlink" title="Attention"></a>Attention</h1><h2 id="1、Hexo文章属性"><a href="#1、Hexo文章属性" class="headerlink" title="1、Hexo文章属性"></a>1、Hexo文章属性</h2><p>hexo 有post、page、draft 的概念</p>
-<p>hexo new 参数</p>
-<p>-p，–path 自定义新文章的路径</p>
-<p>-r，–replace 如果存在同名文章，将其替换</p>
-<p>-s，–slug 文章的slug，作为新文章的文件名和发布后的url</p>
-<p><code>hexo n page -p about/me &quot;title&quot;</code> title 是必须填写的。</p>
+                <p>最近在使用hexo来写博客，对于hexo的简单使用、在Gitee Page上面也实现了正确的部署，但是发现了一个问题，就是说我在使用<code>hexo d</code> 进行部署的时候，gitee page 没有办法实现自动更新，需要手动进入到项目的gitee page页面点击更新，为了解决这个问题，发现了一个github的仓库代码，是使用action来实现的，下面简单说一下使用这个仓库的过程。</p>
+<p>gitee page action 项目给出了一个使用教程，按照上面的流程可以实现gitee page的自动发布，但是这个文档写的属实有点模糊，可以作为本文章的一个补充。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/marketplace/actions/gitee-pages-action">Gitee Pages Action</a></p>
+<h1 id="0x00-总体说明"><a href="#0x00-总体说明" class="headerlink" title="0x00 总体说明"></a>0x00 总体说明</h1><p>这里说一下整体的一个思路，有两种方式。</p>
+<p>第一种，就是在github上面创建一个项目，我们将代码提交到github这个项目上去，然后在action里面配置实现，①将github提交的最新的代码同步到gitee 指定项目上 ②使用action实现对gitee page更新的操作。</p>
+<p>第二种，就是不通过github同步代码到gitee上面，需要同时提交到github和gitee对应的仓库里面，然后使用github的action实现gitee page的自动更新</p>
+<p>我们一上面第一种为例来说明</p>
+<h1 id="0x01-Github-里面操作"><a href="#0x01-Github-里面操作" class="headerlink" title="0x01 Github 里面操作"></a>0x01 Github 里面操作</h1><h2 id="00-在Github中创建一个项目"><a href="#00-在Github中创建一个项目" class="headerlink" title="00 在Github中创建一个项目"></a>00 在Github中创建一个项目</h2><p>需要再github里面创建一个项目。</p>
+<p>我这里已经创建出来了，所以github才会提示说， 这个仓库已经存在了，你们创建的仓库和gitee上面的项目同名就可以。</p>
+<p>这里注意哈，github创建出来的主分支叫做main，而gitee创建出来的主分支叫做master。</p>
+<p><img src="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131021251.png" srcset="/img/loading.gif" lazyload alt="image-20230213102115976"></p>
+<h2 id="01-生成秘钥-配置到个人设置以及创建出的项目里"><a href="#01-生成秘钥-配置到个人设置以及创建出的项目里" class="headerlink" title="01 生成秘钥-配置到个人设置以及创建出的项目里"></a>01 生成秘钥-配置到个人设置以及创建出的项目里</h2><h3 id="0、对秘钥的理解"><a href="#0、对秘钥的理解" class="headerlink" title="0、对秘钥的理解"></a>0、对秘钥的理解</h3><p>如果有时间的童鞋可以看一下这里我的文章，大概意思就是说秘钥的一个工作流程，没有的话也不影响使用。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41288824/article/details/100063009">SSH：ssh两种验证方式（一）</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41288824/article/details/88228024">SSH：ssh使用场景（二）</a></p>
+<h3 id="1、生成私钥和公钥"><a href="#1、生成私钥和公钥" class="headerlink" title="1、生成私钥和公钥"></a>1、生成私钥和公钥</h3><p>在命令行中 <code> ssh-keygen -t rsa -C &quot;你的邮箱地址&quot;</code> ，然后一路回车就可以了，就是使用默认的配置。</p>
+<p>秘钥会存放到家目录的.ssh文件夹下面。</p>
+<p><img src="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131049717.png" srcset="/img/loading.gif" lazyload alt="image-20230213104942668"></p>
+<h3 id="2、配置公钥私钥"><a href="#2、配置公钥私钥" class="headerlink" title="2、配置公钥私钥"></a>2、配置公钥私钥</h3><p>在个人的setting里面，找到<code>SSH and GPG keys</code>,  然后点击new SSH key， title的话，随意输入，只要直接能够区分就可以；</p>
+<p>对于下面key，我们要把公钥（id_rsa.pub）里面的内容，拷到key里面，然后点击保存就可以。</p>
+<p><img src="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131233333.png" srcset="/img/loading.gif" lazyload alt="image-20230213123307292"></p>
+<p>下一步就是给项目设计变量，我们找到我们刚才在github上面创建的项目，找到项目的setting，然后点击action，在点击右侧的new repository secret。</p>
+<p><img src="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131236616.png" srcset="/img/loading.gif" lazyload alt="image-20230213123612577"></p>
+<p>点击之后会出现配置的界面，这里我们定义两个secret， 一个name叫做GITEE_RSA_PRIVATE_KEY， secret就是我们在上面生成的私钥，这里当时遇到一个问题，可以参考下面连接；另外一个叫做GITEE_PASSWORD， secret就是你的gitee的账号密码。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qiuxuezhe_fei/article/details/126027207"># Key is invalid. You must supply a key in OpenSSH public key format</a></p>
+<h3 id="3、在github项目代码添加action文件"><a href="#3、在github项目代码添加action文件" class="headerlink" title="3、在github项目代码添加action文件"></a>3、在github项目代码添加action文件</h3><p>我们使用github的action流程，我们需要添加一个yml文件来作为action的执行文件。我们需要在项目的根目录下，创建一个<code>.github/workfolws</code>的文件夹，里面创建一个sync.yml 的文件，这个文件的名称可以随意。</p>
+<p>这里在网页上面操作一下。</p>
+<p><img src="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131247147.png" srcset="/img/loading.gif" lazyload alt="image-20230213124743105"></p>
+<p>只要有这个文件就可以，可以在本地创建，然后上传到github，也是可以的。</p>
+<p>到后面，会执行这个action，执行的过程也会在action 这个tag页里面展示，像是报错之类的信息。</p>
+<h2 id="02-yml文件问题（附加）"><a href="#02-yml文件问题（附加）" class="headerlink" title="02 yml文件问题（附加）"></a>02 yml文件问题（附加）</h2><p>到这里github的配置就差不多，但是这里我遇到一个问题，就是我使用的hexo来部署的，hexo g会把之前的public文件下面的文件都删除，重新生成，这样的话，就会导致上面创建的yml文件丢失，这个问题我也是看了一晚上的issue才看到一个童鞋的解决问题。他的issue是中文的，十分轻松就能看懂的，这里就贴一下连接就可以。</p>
+<p>两篇文章需要一起看，第一个就是说，hexo在部署的时候，如何将额外的文件添加到部署的文件夹里面（就是在source下面创建你想部署的文件）</p>
+<p>第二篇文章说的就是设置一下，让文件正确的出现在根目录下面</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git/issues/87">When Deploying, Resets My Custom Domain #87</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/yanglbme/gitee-pages-action/issues/34">使用Hexo设置Gitee自动部署时需要特别配置Hexo，建议写进这边的文档里面 #34</a></p>
+<h1 id="0x03-Gitee-里面项目配置"><a href="#0x03-Gitee-里面项目配置" class="headerlink" title="0x03 Gitee 里面项目配置"></a>0x03 Gitee 里面项目配置</h1><h2 id="00-首次使用gitee-page"><a href="#00-首次使用gitee-page" class="headerlink" title="00 首次使用gitee page"></a>00 首次使用gitee page</h2><p>在gitee相关配置。</p>
+<p>如果说你是第一次使用gitee page的话，就需要自己手动设置一下gitee page，这里就不过多的赘述了， 参考下面链接。</p>
+<p>这里提醒一下，就是现在gitee page需要个人认证了。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_46036214/article/details/110137239">在Gitee搭建属于自己的博客</a></p>
+<h2 id="01-配置公钥到个人设置里面"><a href="#01-配置公钥到个人设置里面" class="headerlink" title="01 配置公钥到个人设置里面"></a>01 配置公钥到个人设置里面</h2><p>还是一样的，找到setting，然后左中方找到ssh公钥，标题的话，可以随意，下面的公钥，就填写我们上面生成的id_rsa里面的内容。</p>
+<p><img src="https://gitee.com/jet5devil/typora-picture/raw/master/mac_img/202302131303137.png" srcset="/img/loading.gif" lazyload alt="image-20230213130326086"></p>
+<p>到这里我们的自动配置就配置完成了，然后即使测试了</p>
 
                 
               </div>
@@ -315,11 +357,36 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/blog/" class="category-chain-item">blog</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
   
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/hexo/">#hexo</a>
+        <a href="/tags/gitee/">#gitee</a>
+      
+        <a href="/tags/github/">#github</a>
+      
+        <a href="/tags/auto-deploy/">#auto-deploy</a>
       
     </div>
   
@@ -331,20 +398,20 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hexo快速入门</div>
-      <div>http://example.com/2023/02/03/Hexo快速入门/</div>
+      <div>借用Github实现自动更新Gitee Page</div>
+      <div>http://example.com/2023/02/13/git/借用Github实现自动更新Gitee-Page/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>John Doe</div>
+          <div>joe dengc</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年2月3日</div>
+          <div>2023年2月13日</div>
         </div>
       
       
@@ -376,9 +443,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/02/03/Gitee%E5%AE%9E%E7%8E%B0%E6%8C%81%E7%BB%ADCiCd/" title="Gitee实现CiCd">
+                      <a href="/2023/02/15/%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99%E6%80%BB%E7%BB%93/" title="实用的网站总结">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Gitee实现CiCd</span>
+                        <span class="hidden-mobile">实用的网站总结</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -386,8 +453,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/01/30/Vim-Plugin-NerdTree/" title="Vim Plugin: NerdTree">
-                        <span class="hidden-mobile">Vim Plugin: NerdTree</span>
+                      <a href="/2023/02/03/git/Gitee%E5%AE%9E%E7%8E%B0%E6%8C%81%E7%BB%ADCiCd/" title="Gitee实现CiCd">
+                        <span class="hidden-mobile">Gitee实现CiCd</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
