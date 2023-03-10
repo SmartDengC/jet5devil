@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-10T05:07:32.704Z</updated>
+  <updated>2023-03-10T06:20:50.325Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>rn1</title>
+    <link href="http://example.com/2023/03/10/riding-note/rn1/"/>
+    <id>http://example.com/2023/03/10/riding-note/rn1/</id>
+    <published>2023-03-10T06:20:50.000Z</published>
+    <updated>2023-03-10T06:20:50.325Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hello new file</title>
+    <link href="http://example.com/2023/03/10/riding-note/helloworld/"/>
+    <id>http://example.com/2023/03/10/riding-note/helloworld/</id>
+    <published>2023-03-10T06:19:37.000Z</published>
+    <updated>2023-03-10T06:19:37.991Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>RN-230305-环眉山220公里比赛</title>
@@ -126,8 +152,8 @@
   
   <entry>
     <title>RN-230219-大坪村看花</title>
-    <link href="http://example.com/2023/02/20/RN-230219-%E5%A4%A7%E5%9D%AA%E6%9D%91%E7%9C%8B%E8%8A%B1/"/>
-    <id>http://example.com/2023/02/20/RN-230219-%E5%A4%A7%E5%9D%AA%E6%9D%91%E7%9C%8B%E8%8A%B1/</id>
+    <link href="http://example.com/2023/02/20/riding-note/RN-230219-%E5%A4%A7%E5%9D%AA%E6%9D%91%E7%9C%8B%E8%8A%B1/"/>
+    <id>http://example.com/2023/02/20/riding-note/RN-230219-%E5%A4%A7%E5%9D%AA%E6%9D%91%E7%9C%8B%E8%8A%B1/</id>
     <published>2023-02-20T14:15:20.000Z</published>
     <updated>2023-02-23T03:25:57.903Z</updated>
     
@@ -254,9 +280,9 @@
     <link href="http://example.com/2023/02/03/Hexo%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     <id>http://example.com/2023/02/03/Hexo%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</id>
     <published>2023-02-03T08:50:37.000Z</published>
-    <updated>2023-02-03T09:06:00.859Z</updated>
+    <updated>2023-03-10T06:17:11.334Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>1、如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。</p><p>2、就是现在gitee不能够及时的相应hexo d，应该需要做cicd<br>3、在obsidian文件目录里面做一个 blog的软连，看这样能不能实现顺畅的工作流。<br>4、就是描述自己的工作流，如何使用。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>1、如何管理hexo的目录，就是在hexo里面存放hexo相关的文件。</p><p>2、就是现在gitee不能够及时的相应hexo d，应该需要做cicd<br>3、在obsidian文件目录里面做一个 blog的软连，看这样能不能实现顺畅的工作流。<br>4、就是描述自己的工作流，如何使用。</p><h1 id="Attention"><a href="#Attention" class="headerlink" title="Attention"></a>Attention</h1><h2 id="1、Hexo文章属性"><a href="#1、Hexo文章属性" class="headerlink" title="1、Hexo文章属性"></a>1、Hexo文章属性</h2><p>hexo 有post、page、draft 的概念</p><p>hexo new 参数</p><p>-p，–path 自定义新文章的路径</p><p>-r，–replace 如果存在同名文章，将其替换</p><p>-s，–slug 文章的slug，作为新文章的文件名和发布后的url</p><p><code>hexo n page -p about/me &quot;title&quot;</code> title 是必须填写的。</p>]]></content>
     
     
       
